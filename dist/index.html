@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>browsersync-pure-boilerplate</title>
+    <meta name="keyword" content="">
+    <meta name="description" content="">
+    <meta name="author" content="tommyshao">
+    <meta name="generator" content="browsersync-pure-boilerplate">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <!-- style -->
+    <link rel="stylesheet" type="text/css" href="src/bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="src/css/app.css">
+
+    <!-- js -->
+    <script src="src/bower_components/es5-shim/es5-shim.min.js"></script>
+    <script src="src/bower_components/es5-shim/es5-sham.min.js"></script>
+    <script src="src/bower_components/jquery/dist/jquery.min.js"></script>
+
+    <script>
+    // 兼容 ie 和 360 不支持 console
+    if (!window.console) {
+        window.console = {};
+        window.console.log = window.console.error = window.console.dir = function () {
+        };
+    }
+  </script>
+
+  <!-- mock API server -->
+  <script src="http://rap.taobao.org/rap.plugin.js?projectId=4074&mode=1"></script>
+</head>
+<body>
+    <h1>browser-sync-boilerplate</h1>
+
+    <script src="src/js/app.js"></script>
+</body>
+</html>

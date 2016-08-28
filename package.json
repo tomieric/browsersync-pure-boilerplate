@@ -1,0 +1,21 @@
+{
+  "name": "browsersync-pure-boilerplate",
+  "version": "1.0.0",
+  "description": "`browser-sync` 是一款 `省时的浏览器同步测试工具`，`browsersync-pure-boilerplate` 是一个纯的前端静态资源项目搭载`browser-sync` 使我们快速启动一个简单的前端项目，实现文件实时刷新",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --config bs-config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yo-ga",
+    "startKit",
+    "browser-sync",
+    "boilerplate"
+  ],
+  "author": "tommyshao",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.14.0"
+  }
+}
