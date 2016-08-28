@@ -1,0 +1,34 @@
+node_modules/
+bower_components/
+.idea
+.idea/
+.idea/*
+
+*.exe
+
+.c9*
+.settings
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac crap
+.DS_Store
+
+
+.svn
+
+*.swo
+*.swp
+
+*.log
+
+.vscode
+.vscode/

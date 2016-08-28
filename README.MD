@@ -32,3 +32,9 @@ cd projectName && npm install
 ```
 npm start
 ```
+
+## 发布项目
+
+```
+npm run bundle
+```

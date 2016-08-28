@@ -5,7 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "browser-sync start --config bs-config.js",
+    "bundle": "node bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomieric/browsersync-pure-boilerplate.git"
   },
   "keywords": [
     "yo-ga",
